@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>DAFO - Uni Express</title>
+    <style>
+      :root {
+        --bg: #f7f9fb;
+        --card: #ffffff;
+        --border: #d6e0ea;
+        --head: #0b4670;
+        --text: #0b2430;
+      }
+      body {
+        margin: 0;
+        font-family:
+          Segoe UI,
+          Roboto,
+          "Helvetica Neue",
+          Arial,
+          sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 40px 16px;
+      }
+      .container {
+        width: 100%;
+        max-width: 980px;
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        box-shadow: 0 6px 20px rgba(10, 30, 45, 0.06);
+        padding: 24px;
+      }
+      h1 {
+        margin: 0 0 14px 0;
+        font-size: 20px;
+        color: var(--head);
+      }
+      p.note {
+        margin: 0 0 18px 0;
+        color: #3b5566;
+        font-size: 13px;
+      }
+
+      table.dafo {
+        width: 100%;
+        border-collapse: collapse;
+        table-layout: fixed;
+        font-size: 14px;
+      }
+      table.dafo thead th {
+        text-align: left;
+        padding: 12px 14px;
+        background: linear-gradient(180deg, #eaf4fb, #d9eef9);
+        color: var(--head);
+        border-bottom: 1px solid var(--border);
+        font-weight: 600;
+      }
+      table.dafo th.rowlabel {
+        width: 120px;
+        background: linear-gradient(180deg, #f0f6f9, #eef6fb);
+        color: #0b3b52;
+        padding: 12px;
+        vertical-align: top;
+        border-right: 1px solid var(--border);
+      }
+      table.dafo td {
+        padding: 14px;
+        vertical-align: top;
+        color: var(--text);
+        border-right: 1px solid var(--border);
+        border-bottom: 1px solid var(--border);
+        line-height: 1.45;
+        word-wrap: break-word;
+      }
+      table.dafo td:last-child {
+        border-right: 0;
+      }
+      table.dafo tr:last-child td {
+        border-bottom: 0;
+      }
+
+      /* responsive */
+      @media (max-width: 700px) {
+        .container {
+          padding: 14px;
+        }
+        table.dafo thead {
+          display: none;
+        }
+        table.dafo,
+        table.dafo tbody,
+        table.dafo tr,
+        table.dafo td {
+          display: block;
+          width: 100%;
+        }
+        table.dafo tr {
+          margin-bottom: 12px;
+        }
+        table.dafo td {
+          border-right: 0;
+          border-bottom: 1px dashed var(--border);
+          padding: 10px;
+        }
+        table.dafo td::before {
+          content: attr(data-label);
+          display: block;
+          font-weight: 600;
+          margin-bottom: 6px;
+          color: var(--head);
+        }
+        th.rowlabel {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Análisis DAFO (Uni Express S.A.S.)</h1>
+      <p class="note">
+        Tabla DAFO exactamente con el contenido provisto (Fortalezas /
+        Debilidades - Internas / Externas).
+      </p>
+
+      <table class="dafo" role="table" aria-label="DAFO">
+        <thead>
+          <tr>
+            <th class="rowlabel" scope="col"></th>
+            <th scope="col">Fortalezas</th>
+            <th scope="col">Debilidades</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th class="rowlabel" scope="row">Internas</th>
+            <td data-label="Fortalezas (Internas)">
+              - Liderazgo en mensajería para clubes y autorización MinTIC.<br />
+              - Red consolidada de mensajeros en Bogotá.<br />
+              - Relaciones cercanas con clientes y proveedores.<br />
+              - Experiencia en correspondencia sensible nacional/internacional.
+            </td>
+            <td data-label="Debilidades (Internas)">
+              - Procesos manuales en zonificación, impresión y escaneo.<br />
+              - Plataforma básica dependiente de Excel y OCR.<br />
+              - Escasa cultura de innovación digital.<br />
+              - Limitada formación tecnológica del personal.
+            </td>
+          </tr>
+
+          <tr>
+            <th class="rowlabel" scope="row">Externas</th>
+            <td data-label="Fortalezas (Externas)">
+              - Demanda creciente de logística digital en Colombia.<br />
+              - Integración de Industria 4.0 (IoT, big data, IA).<br />
+              - Colaboración con startups logísticas.<br />
+              - Expansión a Medellín y Cali.
+            </td>
+            <td data-label="Debilidades (Externas)">
+              - Competencia de Servientrega y Envía con inversión digital.<br />
+              - Modelos disruptivos como Rappi.<br />
+              - Obsolescencia tecnológica rápida.<br />
+              - Pérdida de clientes por demoras/errores.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
