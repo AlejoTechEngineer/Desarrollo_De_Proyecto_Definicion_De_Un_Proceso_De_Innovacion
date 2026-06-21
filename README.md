@@ -1,3 +1,5 @@
+<div align="center">
+
 # Definición de un Proceso de Innovación Tecnológica
 
 ![Innovation](https://img.shields.io/badge/Gestión-Innovación-8E24AA?style=for-the-badge)
@@ -6,6 +8,10 @@
 > Definición y modelado de un proceso de innovación tecnológica con análisis DAFO y gestión del cambio.
 
 ## Descripción
+
+</div>
+
+---
 
 Proyecto de definición de un proceso estructurado de innovación tecnológica para organizaciones del sector TI. Se aplica el análisis **DAFO** para diagnosticar el estado actual, se define la metodología de ideación, prototipado y validación, y se establece un plan de gestión del cambio para la adopción de la innovación.
 
@@ -29,3 +35,12 @@ Proyecto de definición de un proceso estructurado de innovación tecnológica p
 
 **Asignatura:** Dirección y Gestión de Empresas TI · **Institución:** UNIR · Ingeniería Informática
 **Autor:** Alejandro De Mendoza — Ingeniero Informático · Especialista IA · Máster Arquitectura de Software
+
+---
+
+## Autor
+
+**Alejandro De Mendoza**  
+Ingeniero Informático · Especialista en IA · Especialista en Ingeniería de Software · Máster en Arquitectura de Software
+
+[![GitHub](https://img.shields.io/badge/GitHub-AlejoTechEngineer-181717?style=for-the-badge&logo=github)](https://github.com/AlejoTechEngineer)
