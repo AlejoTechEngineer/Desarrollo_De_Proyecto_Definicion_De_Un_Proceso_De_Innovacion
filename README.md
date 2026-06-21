@@ -38,6 +38,23 @@ Proyecto de definición de un proceso estructurado de innovación tecnológica p
 
 ---
 
+## Arquitectura
+
+```mermaid
+flowchart TD
+    A[Inicio del Proceso de Innovacion] --> B[Diagnostico]
+    B --> C[Analisis DAFO - tabla_Comparativa_DAFO.html]
+    C --> D{Fortalezas y Oportunidades identificadas?}
+    D -- Si --> E[Ideacion - Generacion y filtrado de ideas]
+    D -- No --> C
+    E --> F[Prototipado - Ciclo rapido de validacion de hipotesis]
+    F --> G{Hipotesis validada?}
+    G -- No --> E
+    G -- Si --> H[Escalado - Plan de adopcion e implementacion]
+    H --> I[Gestion del Cambio - Comunicacion y formacion]
+    I --> J[Informe Final - Documentacion PDF + DOCX]
+```
+
 ## Autor
 
 **Alejandro De Mendoza**  
