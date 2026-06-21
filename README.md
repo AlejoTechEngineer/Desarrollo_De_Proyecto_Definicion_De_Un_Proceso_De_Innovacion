@@ -17,26 +17,12 @@ Proyecto de definición de un proceso estructurado de innovación tecnológica p
 
 ## Contenido
 
+- [Arquitectura](#arquitectura)
 | Archivo | Descripción |
 |---|---|
 | `*.pdf` | Informe de definición del proceso de innovación |
 | `tabla_Comparativa_DAFO.html` | Análisis DAFO interactivo |
 | `*.docx` | Desarrollo y documentación del proyecto |
-
-## Fases del proceso de innovación modelado
-
-1. **Diagnóstico:** Análisis DAFO del entorno y capacidades organizacionales
-2. **Ideación:** Metodología de generación y filtrado de ideas
-3. **Prototipado:** Ciclo rápido de validación de hipótesis
-4. **Escalado:** Plan de adopción e implementación
-5. **Gestión del cambio:** Estrategia de comunicación y formación
-
-## Contexto académico
-
-**Asignatura:** Dirección y Gestión de Empresas TI · **Institución:** UNIR · Ingeniería Informática
-**Autor:** Alejandro De Mendoza — Ingeniero Informático · Especialista IA · Máster Arquitectura de Software
-
----
 
 ## Arquitectura
 
@@ -54,6 +40,21 @@ flowchart TD
     H --> I[Gestion del Cambio - Comunicacion y formacion]
     I --> J[Informe Final - Documentacion PDF + DOCX]
 ```
+
+## Fases del proceso de innovación modelado
+
+1. **Diagnóstico:** Análisis DAFO del entorno y capacidades organizacionales
+2. **Ideación:** Metodología de generación y filtrado de ideas
+3. **Prototipado:** Ciclo rápido de validación de hipótesis
+4. **Escalado:** Plan de adopción e implementación
+5. **Gestión del cambio:** Estrategia de comunicación y formación
+
+## Contexto académico
+
+**Asignatura:** Dirección y Gestión de Empresas TI · **Institución:** UNIR · Ingeniería Informática
+**Autor:** Alejandro De Mendoza — Ingeniero Informático · Especialista IA · Máster Arquitectura de Software
+
+---
 
 ## Autor
 
